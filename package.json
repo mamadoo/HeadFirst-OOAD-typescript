@@ -1,0 +1,21 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.70.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.2"
+  }
+}
